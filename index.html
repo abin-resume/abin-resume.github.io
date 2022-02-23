@@ -43,7 +43,7 @@
 					"Class 12\t" + "Father Agnel School\n" + "-> 83.8%\n\n" +
 					"Class 10\t" + "Father Agnel School\n" + "-> 9 CGPA\n");
 			},
-			volunteer_experience: function () {
+			volunteerExperience: function () {
 				this.echo("\n1. OpenMinded\n" + "    Working on Differential Privacy by contributing to the PyDP team. Currently focused on integrating Pandas Profiling to PyDP.\n\n" + 
 					"2. Speaker\n" + "    2.1. Gave a webinar as a returning alumnus to SRM on differential privacy and machine learning.\n    2.2. Was the host and panel speaker of IEEE SIESGST, on Machine Intelligence and its industry aspects.\n" + 
 					"    2.3. Create(s) YouTube videos to lower the barrier to entry into Data Structures, Algorithms,\n         Data Science, Machine Learning, and Privacy-Enhancing Technologies\n");
@@ -56,7 +56,15 @@
 				+ '5. Java - Have used before\n');
 			},
 
-			work_experience: function () {this.echo(
+			websites: function () {
+				this.echo('\n1. LinkedIn - https://www.linkedin.com/in/datasciencejokes/\n'
+				+ '2. Github - https://github.com/Spartan-119\n'
+				+ '3. YouTube - https://www.youtube.com/c/AbinVarghese\n'
+				+ '4. Linktree - https://linktr.ee/abinvarghese\n'
+				+ '5. Twitter - https://twitter.com/_coffeedrinker_\n');
+			},
+
+			workExperience: function () {this.echo(
 				"\n1. Associate - Data Science & Machine Learning Track - Infosys (01/2021 - Present):\n" + 
 				"    1.1. Led a team to develop an enterprise solution to extract skills from resumes,\n         and classify them into 5 job proficiency categories using Attention model.\n" + 
 				"    1.2. Worked on internal ML projects in the Data Science & Machine Learning track\n" + 
@@ -77,10 +85,11 @@
 
 		}, {
 			greetings: "Welcome human! This is Abin's resume.\n"
-				+  "\nType: 'work_experience' to view the work experience."
+				+  "\nType: 'workExperience' to view the work experience."
 				+  "\nType: 'skills' to view the skills."
 				+  "\nType: 'projects' to view the projects."
-				+  "\nType: 'volnteer_experience' to view the volunteer experience."
+				+  "\nType: 'websites' to view my other websites."
+				+  "\nType: 'volnteerExperience' to view the volunteer experience."
 				+  "\nType: 'education' to view the Education details.\n\n"
 		});
 	</script>
